@@ -1,0 +1,75 @@
+{
+  "closed": 2,
+  "data": [
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDYwNjQ1ODIx",
+      "title": "Update modal to display external html page",
+      "url": "https://github.com/endonoh0/winged-it/pull/1",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars2.githubusercontent.com/u/55301051?u=c2c420388b00be8927bfdc165b4ae66c4f45f61e&v=4",
+        "url": "https://github.com/endonoh0",
+        "login": "endonoh0"
+      },
+      "createdAt": "2020-08-01T00:29:25Z",
+      "number": 1,
+      "changedFiles": 5,
+      "additions": 55,
+      "deletions": 15,
+      "baseRepository": {
+        "name": "winged-it",
+        "url": "https://github.com/endonoh0/winged-it",
+        "owner": {
+          "avatarUrl": "https://avatars2.githubusercontent.com/u/55301051?u=c2c420388b00be8927bfdc165b4ae66c4f45f61e&v=4",
+          "login": "endonoh0",
+          "url": "https://github.com/endonoh0"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzI1NTAxMjU3",
+      "title": "Add endonoh0",
+      "url": "https://github.com/jlord/patchwork/pull/31023",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2019-10-07T21:25:17Z",
+      "number": 31023,
+      "changedFiles": 2,
+      "additions": 1,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "patchwork",
+        "url": "https://github.com/jlord/patchwork",
+        "owner": {
+          "avatarUrl": "https://avatars3.githubusercontent.com/u/1305617?u=25309b5502674f2627fdc109c52522daed0e3d6d&v=4",
+          "login": "jlord",
+          "url": "https://github.com/jlord"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzE3NTE5NjQ1",
+      "title": "Add endonoh0",
+      "url": "https://github.com/jlord/patchwork/pull/30649",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2019-09-14T00:42:52Z",
+      "number": 30649,
+      "changedFiles": 4,
+      "additions": 1,
+      "deletions": 0,
+      "baseRepository": {
+        "name": "patchwork",
+        "url": "https://github.com/jlord/patchwork",
+        "owner": {
+          "avatarUrl": "https://avatars3.githubusercontent.com/u/1305617?u=25309b5502674f2627fdc109c52522daed0e3d6d&v=4",
+          "login": "jlord",
+          "url": "https://github.com/jlord"
+        }
+      }
+    }
+  ],
+  "merged": 1,
+  "open": 0,
+  "totalCount": 3
+}
