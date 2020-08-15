@@ -15,7 +15,7 @@ export default function Skills(props) {
           </h1>
         </Fade>
       </div>
-      {/* <SkillSection them={theme} /> */}
+      <SkillSection theme={theme} />
       { <SkillsSummary />}
 
     </div>
