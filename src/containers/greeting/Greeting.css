@@ -34,7 +34,7 @@
       color: rgb(20, 33, 61);
     /* z-index: -1; */
     /* margin-bottom: 50%; */
-    margin-right: 22%;
+    margin-right: 20%;
   /* z-index: -1; */
   position: absolute;
   /* margin-left: -23%; */
@@ -46,6 +46,7 @@
 }
 
 .greeting-nickname {
+  margin-bottom: -10px;
   font-size: 30px;
   line-height: 0px;
   font-family: "Google Sans Bold Italic";

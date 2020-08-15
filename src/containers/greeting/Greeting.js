@@ -14,10 +14,10 @@ export default function Greeting(props) {
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
-            <div>
+            <div className="center">
+
               {/* SVG animation */}
             <div className="brand">
-
                 <GreetingAnimate className="sun"/>
                 <h1 className="greeting-text" style={{ color: theme.text  }}>
                   {/* Full Name */}
