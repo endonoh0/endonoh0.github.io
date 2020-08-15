@@ -4,6 +4,7 @@ import Greeting from "../../containers/greeting/Greeting";
 import Skills from "../../containers/skills/Skills";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
+import Carousel from "./Carousel"
 
 class Home extends Component {
   render() {
@@ -12,8 +13,8 @@ class Home extends Component {
       <div>
         {/* Navbar */}
         <Header theme={this.props.theme} />
-
         <Greeting theme={this.props.theme} />
+        <Carousel />
         <Skills theme={this.props.theme} />
         {/* <Footer theme={this.props.theme} /> */}
         <TopButton theme={this.props.theme} />
