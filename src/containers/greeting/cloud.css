@@ -38,6 +38,7 @@
 }
 
 .cloud-front {
+  z-index: 9999;
   animation-duration: 30s;
   animation-name: cloud-move;
   animation-iteration-count: infinite;
@@ -56,6 +57,7 @@
 }
 
 .cloud-back {
+  z-index: 9999;
   animation-duration: 40s;
   animation-name: cloud-move-reverse;
   animation-iteration-count: infinite;

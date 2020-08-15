@@ -33,6 +33,7 @@
 .greeting-text {
   color: rgb(20, 33, 61);
   margin-right: 20%;
+  font-size: ;
   position: absolute;
   margin-top: 1.9%;
   line-height: 1.1;
@@ -46,7 +47,7 @@
   font-family: "Google Sans Bold Italic";
 }
 
-.greeting-text-p {
+.greeting-p {
   font-size: 40px;
   line-height: 40px;
   margin-right: 40px;
@@ -72,8 +73,8 @@
     justify-content: space-around;
   }
   .greeting-text {
-    font-size: 30px;
-    margin-top: 0px;
+    /* font-size: 30px;
+    margin-top: 0px; */
     text-align: center;
   }
   .greeting-nickname {
@@ -99,7 +100,12 @@
 
 .brand {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+}
+
+
+svg {
+  z-index: 9999;
 }
 
 .sun {
