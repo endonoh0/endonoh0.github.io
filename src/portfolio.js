@@ -2,16 +2,15 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //Home Page
 const greeting = {
   title: "Eric Ho",
   logo_name: "EricHo",
-  nickname: "Endonoho",
-  subTitle:
-    "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  nickname: "Software Developer",
+  subTitle: "I am a Full Stack Developer and passionate learner who is always ready to help, teach, and share knowledge. Eager to ride cutting-edge technologies, with a driven purpose to  build long lasting applications and websites.",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
   portfolio_repository: "https://github.com/endonoh0/masterPortfolio",
@@ -46,17 +45,16 @@ const socialMediaLinks = [
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
-    name: "Medium",
-    link: "https://medium.com/@endonoho",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
+    name: "Phone",
+    fontAwesomeIcon: "fas fa-mobile-alt", // Reference https://fontawesome.com/icons/twitter?style=brands
+    backgroundColor: "#ffd571", // Reference https://simpleicons.org/?q=twitter
   },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/endonoho",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  // {
+  //   name: "Instagram",
+  //   link: "https://www.instagram.com/endonoho",
+  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  // },
 ];
 
 const skills = {
