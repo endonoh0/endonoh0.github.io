@@ -5,6 +5,7 @@ import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
+import GreetingAnimate from "./GreetingAnimate";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -13,6 +14,7 @@ export default function Greeting(props) {
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
+            <GreetingAnimate />
             <div>
               <h1 className="greeting-text" style={{ color: theme.text }}>
                 {/* Full Name */}
