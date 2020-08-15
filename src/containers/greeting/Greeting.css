@@ -31,8 +31,16 @@
 }
 
 .greeting-text {
-  margin-top: 80px;
-  font-size: 70px;
+      color: rgb(20, 33, 61);
+    /* z-index: -1; */
+    /* margin-bottom: 50%; */
+    margin-right: 22%;
+  /* z-index: -1; */
+  position: absolute;
+  /* margin-left: -23%; */
+  margin-top: 1.9%;
+  /* margin-top: 80px; */
+  /* font-size: 70px; */
   line-height: 1.1;
   font-family: "Google Sans Bold";
 }
@@ -92,4 +100,14 @@
     display: flex;
     justify-content: center;
   }
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+}
+
+.sun {
+  z-index: 9999;
+  position: absolute;
 }
