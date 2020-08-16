@@ -18,7 +18,7 @@ class Home extends Component {
         <Header theme={this.props.theme} />
         <Greeting theme={this.props.theme} />
 
-        <Skills theme={this.props.theme} />
+        {/* <Skills theme={this.props.theme} /> */}
         <Carousel />
         <SkillSection theme={this.props.theme} />
 

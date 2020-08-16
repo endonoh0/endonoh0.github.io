@@ -59,77 +59,31 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
+    //     {
+    //       skillName: "Python",
+    //       fontAwesomeClassname: "ion-logo-python",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //         color: "#3776AB",
+    //       },
+    //     },
+    //   ],
+    // },
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-      ],
-    },
-    {
-      title: "Full Stack Development",
+      title: "Technologies",
+      cardTitle: "Skills Overiew",
       fileName: "FullStackImg",
+      subtitle: "Languages",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "Building resposive website front end using React-Redux",
+        "Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
+        "Creating application backend in Node, Express & Flask",
+        "Building resposive website front end using React-Redux",
+        "Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
+        "Creating application backend in Node, Express & Flask",
+        "Creating application backend in Node, Express & Flask",
       ],
       softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -139,80 +93,39 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "Ruby",
+          fontAwesomeClassname: "simple-icons:ruby",
           style: {
             color: "#663399",
+          }
+        },
+        {
+          skillName: "PHP",
+          fontAwesomeClassname: "simple-icons:php",
+          style: {
+            color: "#777BB4",
           },
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
+          skillName: "SQL",
+          fontAwesomeClassname: "ant-design:console-sql-outlined",
           style: {
-            color: "#02569B",
+            color: "#CC2927",
           },
         },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
+      cardTitle: "Cloud Infra-Architecture",
+      subtitle: "Databases",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "Experience working on multiple cloud platforms",
+        "Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "Deploying deep learning models on cloud to use on mobile devices",
+        "Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
         {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
@@ -228,63 +141,51 @@ const skills = {
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
           style: {
-            color: "#47A248",
+            color: "#4479A1",
           },
         },
         {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
+          skillName: "Sqlite",
+          fontAwesomeClassname: "simple-icons:sqlite",
           style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
+            color: "#003B57",
           },
         },
       ],
     },
     {
-      title: "UI/UX Design",
+      // title: "UI/UX Design",
+      cardTitle: "UI/UX Design",
+      subtitle: "Frameworks",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "Designing highly attractive user interface for mobile and web applications",
+        "Customizing logo designs and building logos from scratch",
+        "Creating the flow of application functionalities to optimize user experience",
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
           style: {
-            color: "#FF2BC2",
+            color: "#61DAFB",
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "VueJS",
+          fontAwesomeClassname: "logos-vue",
           style: {
-            color: "#F24E1E",
+            color: "#4FC08D",
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "Laravel",
+          fontAwesomeClassname: "cib:laravel",
           style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
+            color: "#4c6ef5",
           },
         },
       ],

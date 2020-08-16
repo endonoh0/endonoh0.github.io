@@ -7,13 +7,14 @@
 
 .card-title {
   font-family: "Google Sans Medium";
-  font-size: 23px;
+  font-size: 14px;
   /* color: #000000; */
 }
 
 .card-subtitle {
   font-family: "Google Sans Medium";
-  font-size: 18px;
+  font-size: 13px;
+  font-weight: 500;
   /* color: #000000; */
   margin-top: 7px;
   margin-bottom: 5px;
@@ -77,9 +78,21 @@
   border-left: 1px solid #d9dbdf;
   border-right: 1px solid #d9dbdf;
   border-radius: 7px;
-  width: 90%;
-  margin: 10px;
+  /* width: 90%; */
+  height: auto;
+  /* margin: 10px; */
+  padding: 1.5rem;
   box-shadow: 5px 5px 5px #d9dbdf;
+}
+
+.right-side {
+  padding: 1rem;
+  padding-bottom: 0;
+  width: 75%;
+}
+
+.left-side {
+  width: 100%;
 }
 
 .visit-btn {

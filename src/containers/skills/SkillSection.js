@@ -4,20 +4,25 @@ import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 
+
 import DataScienceImg from "./DataScienceImg";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
 
-function GetSkillSvg(props) {
-  if (props.fileName === "DataScienceImg")
-    return <DataScienceImg theme={props.theme} />;
-  else if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
-  else if (props.fileName === "CloudInfraImg")
-    return <CloudInfraImg theme={props.theme} />;
-  return <DesignImg theme={props.theme} />;
-}
+import Card from "react-bootstrap/Card"
+
+// function GetSkillSvg(props) {
+//   if (props.fileName === "DataScienceImg")
+//     return <DataScienceImg theme={props.theme} />;
+  // else if (props.fileName === "FullStackImg")
+  //   return <FullStackImg theme={props.theme} />;
+  // else if (props.fileName === "CloudInfraImg")
+  //   return <CloudInfraImg theme={props.theme} />;
+  // else {
+  //   return <DesignImg theme={props.theme} />;
+  // }
+// }
 
 class SkillSection extends Component {
   render() {
@@ -29,28 +34,61 @@ class SkillSection extends Component {
             <div className="skills-main-div">
               <Fade left duration={2000}>
                 <div className="skills-image-div">
-                  {/* <img
-                    alt="Ashutosh is Analysing Data"
-                    src={require(`../../assests/images/${skill.imagePath}`)}
-                  ></img> */}
-                  <GetSkillSvg fileName={skill.fileName} theme={theme} />
+                  <Card className="section_card">
+                    <Card.Title>
+                      {skill.cardTitle}
+                    </Card.Title>
+
+                    <Card.Body className="left-side">
+                      <div>
+                        {skill.skills.map((skillSentence) => {
+                          return (
+                          <ul>
+                            <li
+                              className="subTitle skills-text"
+                              style={{ color: theme.secondaryText }}
+                            >
+                              {skillSentence}
+                            </li>
+
+                          </ul>
+                          );
+                        })}
+                      </div>
+                    </Card.Body>
+                  </Card>
                 </div>
               </Fade>
 
+
               <div className="skills-text-div">
                 <Fade right duration={1000}>
-                  <h1 className="skills-heading" style={{ color: theme.text }}>
-                    {skill.title}
-                  </h1>
-                </Fade>
-                <Fade right duration={1500}>
+                  <Card className="section_card">
+                    <Card.Title>
+                      <h1 className="skills-heading" style={{ color: theme.text }}>
+                        {skill.title}
+                      </h1>
+                    </Card.Title>
+
+                    <Card.Body className="right-side">
+                      <Fade right duration={1500}>
+                        <Card.Subtitle>
+                          {skill.subtitle}
+                        </Card.Subtitle>
 
 
-                  {/* Logo and tooltip */}
-                  <SoftwareSkill logos={skill.softwareSkills} />
+                        {/* Logo and tooltip */}
+                        <SoftwareSkill logos={skill.softwareSkills} />
+
+                      </Fade>
+                    </Card.Body>
+
+                  </Card>
+
                 </Fade>
+
                 <Fade right duration={2000}>
-                  <div>
+                  {/* <div>
                     {skill.skills.map((skillSentence) => {
                       return (
                         <p
@@ -61,7 +99,7 @@ class SkillSection extends Component {
                         </p>
                       );
                     })}
-                  </div>
+                  </div> */}
                 </Fade>
               </div>
             </div>
