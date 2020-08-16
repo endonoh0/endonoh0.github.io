@@ -5,6 +5,9 @@ import Skills from "../../containers/skills/Skills";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import Carousel from "./Carousel"
+import FlipCard from "./FlipCard/FlipCard";
+import SkillSection from "../../containers/skills/SkillSection";
+
 
 class Home extends Component {
   render() {
@@ -14,8 +17,11 @@ class Home extends Component {
         {/* Navbar */}
         <Header theme={this.props.theme} />
         <Greeting theme={this.props.theme} />
-        <Carousel />
+
         <Skills theme={this.props.theme} />
+        <Carousel />
+        <SkillSection theme={this.props.theme} />
+
         {/* <Footer theme={this.props.theme} /> */}
         <TopButton theme={this.props.theme} />
       </div>

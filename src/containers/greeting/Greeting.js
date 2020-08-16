@@ -29,7 +29,7 @@ export default function Greeting(props) {
 
               { <h2 className="greeting-nickname" style={{ color: theme.text }}>
                 {/* Job Title */}
-                {greeting.nickname}
+                {/* {greeting.nickname} */}
               </h2>}
 
               <p
@@ -41,7 +41,7 @@ export default function Greeting(props) {
                 {/* {greeting.subTitle} */}
               </p>
 
-              <SocialMedia theme={theme} />
+              {/* <SocialMedia theme={theme} /> */}
 
               <div className="portfolio-repo-btn-div">
                 {/* Removed Checkout my code */}

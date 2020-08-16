@@ -1,6 +1,16 @@
 import React from 'react';
-import reactReveal from 'react-reveal';
-import programmer from "../../assests/images/programmer.svg";
+// import devgrub from "../../assests/images/devgrub.png";
+import devgrub from "./devgrub.png";
+import Card from "./Card";
+import "./Card.scss";
+import data_science from "../../assests/images/data_science.svg";
+import fullstack from "../../assests/images/fullstack.svg";
+import ui_ux_design from "../../assests/images/ui_ux_design.svg";
+
+import FlipCard from "./FlipCard/FlipCard";
+
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
 class Carousel extends React.Component {
 
@@ -9,55 +19,50 @@ class Carousel extends React.Component {
     this.state = {
       items: [
         {
-          id: 0,
-          title: 'Dev Grub',
-          subTitle: 'The cookbook for developers',
-          imgSrc: programmer,
-          link: 'https://devgrub.com',
-          selected: false
+          id: 1,
+          title: 'My Skills',
+          subTitle: 'adasd',
+          imgSrc: data_science,
+          link: 'https://www.youtube.com/channel/UCxSITxL2JbF229OGCqieVZw',
         },
         {
-          id: 1,
-          title: 'Garrett Love',
-          subTitle: 'YouTube channel',
-          imgSrc: programmer,
-          link: 'https://www.youtube.com/channel/UCxSITxL2JbF229OGCqieVZw',
-          selected: false
+          id: 0,
+          title: 'Full Stack Developer',
+          subTitle: 'Currently learning Python',
+          imgSrc: fullstack,
+          link: 'https://devgrub.com',
+          general_title: 'About Me',
+          general_description: 'Looking for a Developer?',
+          genreal_link: '/contact',
         },
         {
           id: 2,
-          title: 'Evverest',
-          subTitle: 'A social network for developers',
-          imgSrc: programmer,
-          link: 'https://github.com/garrettlove8/evverest',
-          selected: false
+          title: 'Winged It',
+          subTitle: 'My Most Recent Project',
+          imgSrc: ui_ux_design,
+          link: 'https://github.com/endonoh0/winged-it',
+          general_title: 'My Projects',
+          general_description: 'Check out my Projects',
+          general_link: '/projects',
         },
       ]
     }
   }
 
-  handleCardClickMethod = (id, card) => {
-    let items = [...this.state.items];
-
-    items[id].selected = items[id].selected ? false : true;
-
-    items.forEach(item => {
-      if(item.id !== id) {
-        item.selected = false;
-      }
-    });
-
-    this.setState({
-      items
-    });
-
-
+  makeItems = (items) => {
+    return items.map(item => {
+      return <FlipCard items={item} key={item.id} />
+    })
   }
 
 
   render() {
     return(
-      <p>Carousel works</p>
+      <Container fluid={true}>
+        <Row className="justify-content-around">
+          {this.makeItems(this.state.items)}
+        </Row>
+      </Container>
     );
   }
 
