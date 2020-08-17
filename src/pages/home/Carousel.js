@@ -7,6 +7,8 @@ import data_science from "../../assests/images/data_science.svg";
 import fullstack from "../../assests/images/fullstack.svg";
 import ui_ux_design from "../../assests/images/ui_ux_design.svg";
 import profileImgSrc from "../../assests/images/profileImgSrc.jpg";
+import winged_it from "../../assests/images/winged_it.png";
+import appointment_book from "../../assests/images/appointment_book.png";
 
 import FlipCard from "./FlipCard/FlipCard";
 
@@ -22,9 +24,12 @@ class Carousel extends React.Component {
         {
           id: 1,
           title: "Experience",
-          subTitle: '',
+          subTitle: 'Building Web Applications',
           imgSrc: data_science,
-          link: 'https://www.youtube.com/channel/UCxSITxL2JbF229OGCqieVZw',
+          general_description: "I can help realize projects using React.js, JavaScript, HTML and CSS. I am also a quick learner of other technologies if needed.",
+          profileImgSrc: appointment_book,
+          call_to_action: "See my GitHub",
+          link: ""
         },
         {
           id: 0,
@@ -44,9 +49,10 @@ class Carousel extends React.Component {
           subTitle: 'Most Recent Project',
           imgSrc: ui_ux_design,
           link: '/#/projects',
+          profileImgSrc: winged_it,
           // link: 'https://github.com/endonoh0/winged-it',
           general_title: 'My Projects',
-          general_description: 'An app that searches for recipes using in-season ingredients and tracks down nearby farmer\'s market.',
+          general_description: 'A recipe app that searches for in-season ingredients from nearby farmer\'s market.',
           call_to_action: "Check out my code"
         },
       ]
@@ -55,7 +61,9 @@ class Carousel extends React.Component {
 
   makeItems = (items) => {
     return items.map(item => {
-      return <FlipCard items={item} key={item.id} />
+      return (
+          <FlipCard items={item} key={item.id} />
+      )
     })
   }
 

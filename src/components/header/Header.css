@@ -1,6 +1,7 @@
 /* header */
 
 .header {
+  width: 100vw;
   display: block;
   max-width: 90%;
   padding: 20px 10px;
