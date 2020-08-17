@@ -5,7 +5,7 @@ import "./FlipCard.scss";
 
 function FlipCard (props) {
   var sectionStyle = {
-    width: '300px',
+    width: '334px',
     height: '400px',
     backgroundImage: `url(${props.items.imgSrc})`
   };
@@ -20,7 +20,6 @@ function FlipCard (props) {
             <div className="front">
               <div className="inner">
                 <div className="g-card-image" style={sectionStyle} >
-                {/* <div className="g-card-image" style={backgroundImage: `url(${props.items.imgSrc})`} alt={props.items.imgSrc}> */}
 
                 </div>
 
@@ -28,11 +27,16 @@ function FlipCard (props) {
             </div>
 
             <div className="back">
-              <div className="inner">
+              <div className="inner flex-col">
+                <div className="inner-text">
+                  {/* <p className="mb-5">{props.items.general_greeting}</p> */}
+                  <img className="profile_portrait" src={props.items.profileImgSrc} alt={props.items.profileImgSrc}></img>
+                </div>
+                <p className="inner-description">{props.items.general_description}</p>
               </div>
             </div>
               <CardInfo title={props.items.title} subTitle={props.items.subTitle} link={props.items.link} />
-
+              <a href={props.items.link} rel="noopener noreferrer">{props.items.call_to_action}</a>
           </div>
         </div>
       </div>

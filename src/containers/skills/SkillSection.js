@@ -41,19 +41,18 @@ class SkillSection extends Component {
 
                     <Card.Body className="left-side">
                       <div>
+                        <ul className="skills-list">
                         {skill.skills.map((skillSentence) => {
                           return (
-                          <ul>
                             <li
                               className="subTitle skills-text"
                               style={{ color: theme.secondaryText }}
                             >
                               {skillSentence}
                             </li>
-
-                          </ul>
-                          );
-                        })}
+                            );
+                          })}
+                        </ul>
                       </div>
                     </Card.Body>
                   </Card>
@@ -66,7 +65,7 @@ class SkillSection extends Component {
                   <Card className="section_card">
                     <Card.Title>
                       <h1 className="skills-heading" style={{ color: theme.text }}>
-                        {skill.title}
+                        {/* {skill.title} */}
                       </h1>
                     </Card.Title>
 

@@ -6,6 +6,7 @@ import "./Card.scss";
 import data_science from "../../assests/images/data_science.svg";
 import fullstack from "../../assests/images/fullstack.svg";
 import ui_ux_design from "../../assests/images/ui_ux_design.svg";
+import profileImgSrc from "../../assests/images/profileImgSrc.jpg";
 
 import FlipCard from "./FlipCard/FlipCard";
 
@@ -20,8 +21,8 @@ class Carousel extends React.Component {
       items: [
         {
           id: 1,
-          title: 'My Skills',
-          subTitle: 'adasd',
+          title: "Experience",
+          subTitle: '',
           imgSrc: data_science,
           link: 'https://www.youtube.com/channel/UCxSITxL2JbF229OGCqieVZw',
         },
@@ -30,20 +31,23 @@ class Carousel extends React.Component {
           title: 'Full Stack Developer',
           subTitle: 'Currently learning Python',
           imgSrc: fullstack,
-          link: 'https://devgrub.com',
+          profileImgSrc: profileImgSrc,
           general_title: 'About Me',
-          general_description: 'Looking for a Developer?',
-          genreal_link: '/contact',
+          general_greeting: 'Hello World!',
+          general_description: 'Hello World! I am a web developer from Canada.',
+          call_to_action: "Let's get in touch!",
+          link: '/#/contact',
         },
         {
           id: 2,
           title: 'Winged It',
-          subTitle: 'My Most Recent Project',
+          subTitle: 'Most Recent Project',
           imgSrc: ui_ux_design,
-          link: 'https://github.com/endonoh0/winged-it',
+          link: '/#/projects',
+          // link: 'https://github.com/endonoh0/winged-it',
           general_title: 'My Projects',
-          general_description: 'Check out my Projects',
-          general_link: '/projects',
+          general_description: 'An app that searches for recipes using in-season ingredients and tracks down nearby farmer\'s market.',
+          call_to_action: "Check out my code"
         },
       ]
     }

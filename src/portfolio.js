@@ -71,7 +71,7 @@ const skills = {
     // },
     {
       title: "Technologies",
-      cardTitle: "Skills Overiew",
+      cardTitle: "Skills Overview",
       fileName: "FullStackImg",
       subtitle: "Languages",
       skills: [

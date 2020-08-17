@@ -50,6 +50,12 @@
   /* height: 900px; */
 }
 
+.skills-list {
+  padding: 0.5rem;
+  line-height: 2;
+  margin: 0;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {
