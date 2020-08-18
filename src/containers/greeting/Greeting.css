@@ -36,6 +36,7 @@
   margin-top: 1.9%;
   line-height: 1.1;
   font-family: "Google Sans Bold";
+  font-size: 56px;
 }
 
 .greeting-nickname {
@@ -63,14 +64,15 @@
     justify-content: center;
 }
 
-.brand svg {
-  z-index: 9999;
-  transform: scale(2.5);
+.brand svg, svg {
+  /* z-index: 2; */
+  transform: scale(9.5);
 }
 
 .sun {
   z-index: 9999;
   position: absolute;
+  transform: scale(11.5);
 }
 
 

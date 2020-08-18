@@ -2,6 +2,9 @@ import React from "react";
 import CardInfo from "../CardInfo";
 import "../Card.scss"
 import "./FlipCard.scss";
+import GreetingAnimate from "../../../containers/greeting/GreetingAnimate";
+import { Fade } from "react-reveal";
+
 
 function FlipCard (props) {
   var sectionStyle = {
@@ -24,6 +27,9 @@ function FlipCard (props) {
             <div className="front">
               <div className="inner">
                 <div className="g-card-image" style={sectionStyle} >
+                  <Fade right duration={2000}>
+                    <GreetingAnimate />
+                  </Fade>
 
                 </div>
 
@@ -33,7 +39,6 @@ function FlipCard (props) {
             <div className="back">
               <div className="inner flex-col">
                 <div className="inner-text">
-                  {/* <p className="mb-5">{props.items.general_greeting}</p> */}
                   <img className="profile_portrait" src={props.items.profileImgSrc} alt={props.items.profileImgSrc}></img>
                 </div>
                 <p className="inner-description">{props.items.general_description}</p>
@@ -41,7 +46,6 @@ function FlipCard (props) {
             </div>
             <div>
               <CardInfo title={props.items.title} subTitle={props.items.subTitle} link={props.items.link} action={props.items.call_to_action} />
-              {/* <a href={props.items.link} rel="noopener noreferrer">{props.items.call_to_action}</a> */}
             </div>
           </div>
         </div>

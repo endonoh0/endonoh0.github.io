@@ -11,6 +11,7 @@ import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
 
 import Card from "react-bootstrap/Card"
+import GreetingAmimate from "../greeting/GreetingAnimate";
 
 // function GetSkillSvg(props) {
 //   if (props.fileName === "DataScienceImg")
@@ -65,7 +66,7 @@ class SkillSection extends Component {
                   <Card className="section_card">
                     <Card.Title>
                       <h1 className="skills-heading" style={{ color: theme.text }}>
-                        {/* {skill.title} */}
+                        <GreetingAmimate />
                       </h1>
                     </Card.Title>
 
@@ -87,6 +88,7 @@ class SkillSection extends Component {
                 </Fade>
 
                 <Fade right duration={2000}>
+
                   {/* <div>
                     {skill.skills.map((skillSentence) => {
                       return (

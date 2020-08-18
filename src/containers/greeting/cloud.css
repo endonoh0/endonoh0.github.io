@@ -25,6 +25,11 @@
   animation-timing-function: linear;
 }
 
+
+.transform {
+  transform: scale(11);
+}
+
 @keyframes cloud-move {
   from {
    transform: translate(0, 50px);
@@ -38,7 +43,7 @@
 }
 
 .cloud-front {
-  z-index: 9999;
+  z-index: -1;
   animation-duration: 30s;
   animation-name: cloud-move;
   animation-iteration-count: infinite;
