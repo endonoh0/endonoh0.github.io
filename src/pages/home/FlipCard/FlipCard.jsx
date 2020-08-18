@@ -5,9 +5,13 @@ import "./FlipCard.scss";
 
 function FlipCard (props) {
   var sectionStyle = {
-    width: '334px',
+    width: '412px',
     height: '400px',
-    backgroundImage: `url(${props.items.imgSrc})`
+    backgroundImage: `url(${props.items.imgSrc})`,
+    margin: '-100px',
+    'margin-top': '69px',
+    'background-size': 'cover',
+    'background-position': 'center'
   };
 
   return (
@@ -35,8 +39,10 @@ function FlipCard (props) {
                 <p className="inner-description">{props.items.general_description}</p>
               </div>
             </div>
-              <CardInfo title={props.items.title} subTitle={props.items.subTitle} link={props.items.link} />
-              <a href={props.items.link} rel="noopener noreferrer">{props.items.call_to_action}</a>
+            <div>
+              <CardInfo title={props.items.title} subTitle={props.items.subTitle} link={props.items.link} action={props.items.call_to_action} />
+              {/* <a href={props.items.link} rel="noopener noreferrer">{props.items.call_to_action}</a> */}
+            </div>
           </div>
         </div>
       </div>
