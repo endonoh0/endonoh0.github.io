@@ -19,6 +19,7 @@
   /* color: #000000; */
   margin-top: 7px;
   margin-bottom: 5px;
+  padding: 1.5rem 1rem 1.5rem 0;
 }
 
 .card-img {
@@ -83,9 +84,10 @@
 }
 
 .right-side {
-    margin-top: 11%;
+    margin-top: -7.5%;
     padding-bottom: 0;
     padding-top: 0px;
+    /* padding: 0 102px; */
 }
 
 .left-side {

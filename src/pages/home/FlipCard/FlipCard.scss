@@ -84,7 +84,7 @@
     left: 0;
     z-index: 1;
     width: 100%;
-    height: 106%;
+    height: 105%;
     content: '';
     display: block;
     opacity: .9;
@@ -107,7 +107,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 75%;
+    height: 71%;
 }
 
 .inner{
@@ -286,12 +286,15 @@ body {
   }
 }
 
-@media screen and (min-width: 595px) {
+@media screen and (min-width: 454px) {
   .front, .back {
     min-height: 320px !important;
   }
   .inner .g-card-image {
     margin: 69px -100px -100px -82px !important;
+  }
+  .front:after {
+    height: 100%;
   }
 }
 

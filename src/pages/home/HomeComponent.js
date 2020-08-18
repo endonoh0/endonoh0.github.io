@@ -13,17 +13,19 @@ class Home extends Component {
   render() {
     console.log(this.props.theme);
     return (
-      <div className="projects-main">
-        {/* Navbar */}
-        <Header theme={this.props.theme} />
-        <Greeting theme={this.props.theme} />
+      <div className="flex">
+        <div className="projects-main">
+          {/* Navbar */}
+          <Header theme={this.props.theme} />
+          <Greeting theme={this.props.theme} />
 
-        {/* <Skills theme={this.props.theme} /> */}
-        <Carousel />
-        <SkillSection theme={this.props.theme} />
+          {/* <Skills theme={this.props.theme} /> */}
+          <Carousel />
+          <SkillSection theme={this.props.theme} />
 
-        <Footer theme={this.props.theme} />
-        <TopButton theme={this.props.theme} />
+          <Footer theme={this.props.theme} />
+          <TopButton theme={this.props.theme} />
+        </div>
       </div>
     );
   }
