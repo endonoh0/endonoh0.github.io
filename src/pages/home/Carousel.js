@@ -26,7 +26,7 @@ class Carousel extends React.Component {
           title: "Experience",
           subTitle: 'Building Web Applications',
           imgSrc: data_science,
-          general_description: "I can help realize projects using React.js, JavaScript, HTML and CSS. I am also a quick learner of other technologies if needed.",
+          general_description: "I can help realize projects using React.js, JavaScript, HTML and CSS.",
           profileImgSrc: appointment_book,
           call_to_action: "See my GitHub",
           link: ""
