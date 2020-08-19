@@ -4,7 +4,8 @@ import "../Card.scss"
 import "./FlipCard.scss";
 import GreetingAnimate from "../../../containers/greeting/GreetingAnimate2";
 import { Fade } from "react-reveal";
-
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 function FlipCard (props) {
   var sectionStyle = {
@@ -39,7 +40,17 @@ function FlipCard (props) {
             <div className="back">
               <div className="inner flex-col">
                 <div className="inner-text">
-                  <img className="profile_portrait" src={props.items.profileImgSrc} alt={props.items.profileImgSrc}></img>
+                  <Zoom
+                    zoomMargin={80}
+                    transitionDuration={1250}
+                  >
+                    <img
+                      src={props.items.profileImgSrc}
+                      alt={props.items.profileImgSrc}
+                      className="profile_portrait"
+                      width="500"
+                    />
+                  </Zoom>
                 </div>
                 <p className="inner-description">{props.items.general_description}</p>
               </div>
