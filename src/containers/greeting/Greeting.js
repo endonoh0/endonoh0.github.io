@@ -8,6 +8,7 @@ import FeelingProud from "./FeelingProud";
 import GreetingAnimate from "./GreetingAnimate1";
 
 export default function Greeting(props) {
+
   const theme = props.theme;
   return (
     <Fade bottom duration={2000} distance="40px">

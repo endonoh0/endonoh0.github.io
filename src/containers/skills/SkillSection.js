@@ -66,7 +66,7 @@ class SkillSection extends Component {
                   <Card className="section_card">
                     <Card.Title>
                       <h1 className="skills-heading" style={{ color: theme.text }}>
-                        <GreetingAmimate />
+                        {/* <GreetingAmimate /> */}
                       </h1>
                     </Card.Title>
 

@@ -28,7 +28,7 @@ function FlipCard (props) {
               <div className="inner">
                 <div className="g-card-image" style={sectionStyle} >
                   <Fade right duration={2000}>
-                    <GreetingAnimate />
+                    {/* <GreetingAnimate /> */}
                   </Fade>
 
                 </div>
