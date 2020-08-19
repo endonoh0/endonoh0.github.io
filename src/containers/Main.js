@@ -30,23 +30,23 @@ export default class Main extends Component {
                 render={(props) => <Home {...props} theme={this.props.theme} />}
               />
               <Route
-                path="/experience"
-                exact
-                render={(props) => (
-                  <Experience {...props} theme={this.props.theme} />
-                )}
+                // path="/experience"
+                // exact
+                // render={(props) => (
+                //   <Experience {...props} theme={this.props.theme} />
+                // )}
               />
               <Route
-                path="/education"
-                render={(props) => (
-                  <Education {...props} theme={this.props.theme} />
-                )}
+                // path="/education"
+                // render={(props) => (
+                //   <Education {...props} theme={this.props.theme} />
+                // )}
               />
               <Route
-                path="/opensource"
-                render={(props) => (
-                  <Opensource {...props} theme={this.props.theme} />
-                )}
+                // path="/opensource"
+                // render={(props) => (
+                //   <Opensource {...props} theme={this.props.theme} />
+                // )}
               />
               <Route
                 path="/contact"
@@ -55,10 +55,10 @@ export default class Main extends Component {
                 )}
               />
               <Route
-                path="/splash"
-                render={(props) => (
-                  <Splash {...props} theme={this.props.theme} />
-                )}
+                // path="/splash"
+                // render={(props) => (
+                //   <Splash {...props} theme={this.props.theme} />
+                // )}
               />
               <Route
                 path="/projects"

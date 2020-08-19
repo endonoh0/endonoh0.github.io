@@ -9,8 +9,24 @@
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "PHP",
+          "iconifyClass": "logos:php"
+        },
+        {
+          "name": "Laravel",
+          "iconifyClass": "logos:laravel"
+        },
+        {
+          "name": "VueJS",
+          "iconifyClass": "logos:vue"
+        },
+        {
+          "name": "Sass",
+          "iconifyClass": "logos-sass"
+        },
+        {
+          "name": "TailwindCSS",
+          "iconifyClass": "logos:tailwindcss-icon"
         }
       ]
     },
@@ -23,8 +39,20 @@
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "PHP",
+          "iconifyClass": "logos:php"
+        },
+        {
+          "name": "Laravel",
+          "iconifyClass": "logos:laravel"
+        },
+        {
+          "name": "VueJS",
+          "iconifyClass": "logos:vue"
+        },
+        {
+          "name": "Sass",
+          "iconifyClass": "logos-sass"
         }
       ]
     },
@@ -37,16 +65,32 @@
       "isFork": true,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
         },
         {
+          "name": "NodeJS",
+          "iconifyClass": "logos:nodejs-icon"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "cib:mongodb"
+        },
+        {
+          "name": "VueJS",
+          "iconifyClass": "logos:vue"
+        },
+        {
+          "name": "Ajax",
+          "iconifyClass": "whh:ajax"
+        },
+        {
+          "name": "jQuery",
+          "iconifyClass": "bx:bxl-jquery"
+        },
+        {
           "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "iconifyClass": "logos:css-3"
         }
       ]
     },
@@ -59,16 +103,20 @@
       "isFork": false,
       "languages": [
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Ruby",
+          "iconifyClass": "logos-ruby"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Rails",
+          "iconifyClass": "logos-rails"
         },
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "PostgreSQL",
+          "iconifyClass": "logos-postgresql"
+        },
+        {
+          "name": "Sass",
+          "iconifyClass": "logos-sass"
         }
       ]
     },
@@ -85,26 +133,66 @@
           "iconifyClass": "logos-javascript"
         },
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "ReactJS",
+          "iconifyClass": "simple-icons:react"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "PostgreSQL",
+          "iconifyClass": "logos-postgresql"
+        },
+        {
+          "name": "Bootstrap",
+          "iconifyClass": "logos:bootstrap"
+        },
+        {
+          "name": "Sass",
+          "iconifyClass": "logos-sass"
+        },
+        {
+          "name": "WebSocket",
+          "iconifyClass": "logos-websocket"
+        },
+        {
+          "name": "Storybook",
+          "iconifyClass": "logos:storybook-icon"
         }
       ]
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNTk1MzQ5NjM=",
-      "name": "tweety",
-      "createdAt": "2020-04-28T04:55:03Z",
-      "url": "https://github.com/endonoh0/tweety",
-      "description": "A Twitter clone built with Laravel 6, PHP,  and Vue.js. ",
-      "isFork": false,
+      "name": "Winged It",
+      "createdAt": "2020-08-01T04:55:03Z",
+      "url": "https://github.com/endonoh0/winged-it",
+      "description": "A recipe web app built with React that allows users to search for recipes using the Edamam API.",
+      "isFork": true,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "ReactJS",
+          "iconifyClass": "simple-icons:react"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos-firebase"
+        },
+        {
+          "name": "Bootstrap",
+          "iconifyClass": "logos:bootstrap"
+        },
+        {
+          "name": "Sass",
+          "iconifyClass": "logos-sass"
+        },
+        {
+          "name": "Mapbox",
+          "iconifyClass": "logos:mapbox"
+        },
+        {
+          "name": "iFrame",
+          "iconifyClass": "mdi:iframe"
         }
       ]
     }
