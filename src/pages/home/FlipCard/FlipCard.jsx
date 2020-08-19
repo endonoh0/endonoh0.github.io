@@ -2,7 +2,7 @@ import React from "react";
 import CardInfo from "../CardInfo";
 import "../Card.scss"
 import "./FlipCard.scss";
-import GreetingAnimate from "../../../containers/greeting/GreetingAnimate";
+import GreetingAnimate from "../../../containers/greeting/GreetingAnimate2";
 import { Fade } from "react-reveal";
 
 

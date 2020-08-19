@@ -28,7 +28,7 @@ class Carousel extends React.Component {
           imgSrc: data_science,
           general_description: "I can help realize projects using React.js, JavaScript, HTML and CSS.",
           profileImgSrc: appointment_book,
-          call_to_action: "See my GitHub",
+          call_to_action: "See my GitHub ~",
           link: ""
         },
         {
@@ -53,7 +53,7 @@ class Carousel extends React.Component {
           // link: 'https://github.com/endonoh0/winged-it',
           general_title: 'My Projects',
           general_description: 'A recipe app that searches for in-season ingredients from nearby farmer\'s market.',
-          call_to_action: "Check out my code"
+          call_to_action: "Check out my code ~"
         },
       ]
     }

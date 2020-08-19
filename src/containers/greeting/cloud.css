@@ -1,4 +1,7 @@
-
+svg {
+  z-index: -1;
+  height: 25%;
+}
 /****************************************************************************
                                     keyframes
 *****************************************************************************/
@@ -33,12 +36,10 @@
 @keyframes cloud-move {
   from {
    transform: translate(0, 50px);
-
 }
 
   to {
     transform: translate(200px, 50px);
-
   }
 }
 
@@ -53,7 +54,16 @@
 
 @keyframes cloud-move-reverse {
   from {
-    transform: translate(446px, 48px);
+    transform: translate(500px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
+}
+@keyframes cloud-move-reverse1 {
+  from {
+    transform: translate(400px, 48px);
   }
 
   to {
@@ -62,12 +72,21 @@
 }
 
 .cloud-back {
-  z-index: 9999;
+  z-index: -1;
   animation-duration: 40s;
   animation-name: cloud-move-reverse;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
+}
+
+.cloud-back1 {
+  z-index: -1;
+  animation-duration: 30s;
+  animation-name: cloud-move-reverse;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-in-out;
 }
 
 .-z-1 {

@@ -5,6 +5,7 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import Carousel from "./Carousel"
 import SkillSection from "../../containers/skills/SkillSection";
+import Skills from "../../containers/skills/Skills";
 
 
 class Home extends Component {
@@ -15,7 +16,7 @@ class Home extends Component {
         <div className="projects-main">
           <Header theme={this.props.theme} />
           <Greeting theme={this.props.theme} />
-
+          <Skills theme={this.props.theme} />
           <Carousel />
           <SkillSection theme={this.props.theme} />
           <Footer theme={this.props.theme} />
