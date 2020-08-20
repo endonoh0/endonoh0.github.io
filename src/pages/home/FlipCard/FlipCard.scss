@@ -261,6 +261,7 @@ body {
 
 .mb-15 {
   margin-bottom: -29.4%;
+  transform: scale(1.5);
 }
 
 // 1024px
@@ -306,8 +307,8 @@ body {
   .justify-content-around {
     display: flex;
     flex-direction: row !important;
-    width: unset;
-    margin: unset;
+    // width: unset;
+    // margin: unset;
     justify-content: center;
   }
   .back {

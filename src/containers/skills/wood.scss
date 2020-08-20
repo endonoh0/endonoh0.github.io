@@ -16,7 +16,7 @@
 		}
 		@for $i from 1 through 4 {
 			#mountain-#{$i} {
-				animation: jam 2500ms 625ms * $i ease-in-out alternate infinite;
+				// animation: jam 2500ms 625ms * $i ease-in-out alternate infinite;
 			}
 		}
 	}

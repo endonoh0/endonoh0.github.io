@@ -83,6 +83,12 @@
   .skills-header {
     font-size: 30px;
   }
+  .skills-header-div {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: -17%;
+    margin-right: 21%;
+  }
   .greeting-text-p {
     font-size: 16px;
     line-height: normal;

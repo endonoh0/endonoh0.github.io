@@ -1,19 +1,20 @@
 #contain-all-moon {
 	// display: inline-block;
 	overflow: hidden;
-	background: rgb(36, 36, 36);
 	border-radius: 50%;
-	width: 300px; // SIZE
-	left: 50%; margin-left: -300px; // POSITION VERTICALLY
-  top: 50%; margin-top: -300px; // POSITION HORIZONTALLY
-  margin: 0 auto;
-	padding: 0;
+  width: 300px; // SIZE
+  margin-left: 37%;
 	box-sizing: border-box;
-	box-shadow: inset 0 -10px black; // for inconsistency in SVG bottom has gap
+  // box-shadow: inset 0 -327px black; // for inconsistency in SVG bottom has gap
+  transform: scale(1.5);
+
+  // Hover Effect
+
 	svg {
     transform-origin: 50% 50%;
-    transform: scale(2.5);
-		box-sizing: border-box;
+    // transform: scale(2.5);
+    box-sizing: border-box;
+
 	}
 	#moon-group {
 
@@ -26,22 +27,43 @@
 		}
 		#aura-group {
 			@keyframes pulse {
-				50% {transform: scale(1.05)}
+        0% {
+          fill: var(--yellow);
+          opacity: .2;
+        };
+        50% {
+          transform: scale(1.6);
+          fill: #D9D9BE;
+          opacity: 0.6;
+        };
+        100% {
+          fill: var(orange);
+          // fill: #efe
+          opacity: 1;
+        }
 			}
 			@for $i from 1 through 3 {
 				#aura-#{$i} {
 					transform-origin: 50% 50%;
 					animation: pulse 3000ms 750ms * $i ease-in-out infinite;
 				}
-			}
-		}
+      }
+    }
+
+    #aura-group:hover {
+      fill: black;
+    }
+    #moon:hover {
+      fill: orangered;
+    }
+
 		#crater-group {
 			@for $i from 1 through 4 {
 				#crater-#{$i} {
 					transform-origin: 50% 50%;
 					animation: hover 2000ms 500ms ease-in-out infinite;
 				}
-			}
+      }
 		}
 	}
 	#mountain-group {

@@ -34,7 +34,7 @@ class SkillSection extends Component {
         {skills.data.map((skill) => {
           return (
             <div className="skills-main-div">
-              <Fade left duration={2000}>
+              {/* <Fade left duration={2000}> */}
                 <div className="skills-image-div">
                   <Card className="section_card">
                     <Card.Title>
@@ -59,7 +59,7 @@ class SkillSection extends Component {
                     </Card.Body>
                   </Card>
                 </div>
-              </Fade>
+              {/* </Fade> */}
 
 
               <div className="skills-text-div">
