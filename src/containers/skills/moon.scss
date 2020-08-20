@@ -7,7 +7,7 @@
 	box-sizing: border-box;
   // box-shadow: inset 0 -327px black; // for inconsistency in SVG bottom has gap
   transform: scale(1.5);
-
+  z-index: 99999;
   // Hover Effect
 
 	svg {

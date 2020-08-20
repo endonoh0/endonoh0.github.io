@@ -1,9 +1,14 @@
-import * as React from "react";
+import React, { useRef } from 'react'
 import "./moon.scss";
 
 function Moon(props) {
+
+  const scrollToRef = (ref) => window.scrollTo(0, 1700, 'smooth')
+  const myRef = useRef(null)
+  const executeScroll = () => scrollToRef(myRef)
+
   return (
-    <div id="contain-all-moon">
+    <div id="contain-all-moon" ref={myRef} onClick={executeScroll} >
       <svg viewBox="0 0 400 400" width="100%" height="100%">
         <g id="moon-group">
           <g id="aura-group" fill="#EBEBEB" fill-opacity=".16">
@@ -16,10 +21,7 @@ function Moon(props) {
             <stop offset="88.69218161%" stop-color="#ffe" />
             <stop offset="100%" stop-color="#ffe" />
           </radialGradient>
-          <a href="#">
           <path d="M107.867 200c0-50.849 41.284-92.133 92.133-92.133s92.133 41.284 92.133 92.133-41.284 92.133-92.133 92.133-92.133-41.284-92.133-92.133z" id="moon" fill="" />
-
-          </a>
 
       <g id="crater-group" fill="#D9D9BE">
             <path d="M228.897 143.209c0-2.827 2.295-5.122 5.122-5.122s5.122 2.295 5.122 5.122-2.295 5.122-5.122 5.122-5.122-2.295-5.122-5.122z" id="crater-1" />

@@ -260,7 +260,7 @@ body {
 }
 
 .mb-15 {
-  margin-bottom: -29.4%;
+  margin-top: 24%;
   transform: scale(1.5);
 }
 
@@ -292,6 +292,9 @@ body {
 }
 
 @media screen and (min-width: 454px) {
+  .cols {
+    margin-top: 125%;
+  }
   .front, .back {
     min-height: 320px !important;
   }
