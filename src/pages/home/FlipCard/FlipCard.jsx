@@ -30,7 +30,6 @@ function FlipCard (props) {
               <div className="inner">
                 <div className="g-card-image" style={sectionStyle} >
                   <Fade right duration={2000}>
-                    {/* <GreetingAnimate /> */}
                     {/* <Woods /> */}
                   </Fade>
 
@@ -54,11 +53,11 @@ function FlipCard (props) {
                     />
                   </Zoom>
                 </div>
-                <p className="inner-description">{props.items.general_description}</p>
+                {/* <p className="inner-description">{props.items.general_description}</p> */}
+                  <CardInfo title={props.items.title} subTitle={props.items.subTitle} link={props.items.link} action={props.items.call_to_action} />
               </div>
             </div>
             <div>
-              <CardInfo title={props.items.title} subTitle={props.items.subTitle} link={props.items.link} action={props.items.call_to_action} />
             </div>
           </div>
         </div>

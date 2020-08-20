@@ -24,11 +24,6 @@ body {
   // box-shadow: 0px 0px 3px 1px #ccc;
 }
 
-.g-card-info {
-  margin-top: 10px;
-  min-height: 100px;
-}
-
 .g-card-title {
   font-size: 24px;
   margin: 0px;
@@ -50,6 +45,7 @@ a:hover {
 
 .profile_portrait {
   width: 74%;
+  min-height: 195px;
   height: auto;
   border-radius: 10%;
   margin: 0 auto;
