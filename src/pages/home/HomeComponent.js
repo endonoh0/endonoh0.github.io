@@ -6,7 +6,7 @@ import TopButton from "../../components/topButton/TopButton";
 import Carousel from "./Carousel"
 import SkillSection from "../../containers/skills/SkillSection";
 import Skills from "../../containers/skills/Skills";
-
+import Woods from "../../containers/skills/Woods";
 
 class Home extends Component {
   render() {
@@ -18,6 +18,11 @@ class Home extends Component {
           <Greeting theme={this.props.theme} />
           <Skills theme={this.props.theme} />
           <Carousel />
+
+          <Woods />
+          <Woods />
+          <Woods />
+          <Woods />
           <SkillSection theme={this.props.theme} />
           <Footer theme={this.props.theme} />
           <TopButton theme={this.props.theme} />

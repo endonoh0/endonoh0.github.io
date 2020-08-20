@@ -12,6 +12,7 @@ import DesignImg from "./DesignImg";
 
 import Card from "react-bootstrap/Card"
 import GreetingAmimate from "../greeting/GreetingAnimate";
+// import Woods from "../../containers/skills/Woods"
 
 // function GetSkillSvg(props) {
 //   if (props.fileName === "DataScienceImg")
@@ -67,6 +68,7 @@ class SkillSection extends Component {
                     <Card.Title>
                       <h1 className="skills-heading" style={{ color: theme.text }}>
                         {/* <GreetingAmimate /> */}
+                        {/* <Woods /> */}
                       </h1>
                     </Card.Title>
 

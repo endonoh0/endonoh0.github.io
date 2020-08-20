@@ -59,7 +59,7 @@ export const redTheme = {
   headerColor: "#dc2f0277",
 };
 
-export const blackTheme = {
+export const lightTheme = {
   body: "#E5E5E5",
   text: "#14213d",
   highlight: "#ffffff",
@@ -119,4 +119,4 @@ export const orangeTheme = {
   headerColor: "#FF6B3577",
 };
 
-export const chosenTheme = blackTheme;
+export const chosenTheme = lightTheme;

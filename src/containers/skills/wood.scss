@@ -1,0 +1,29 @@
+#contain-all-wood {
+	display: inline-block;
+	overflow: hidden;
+	width: 300px; // SIZE
+  margin: 0 auto;
+  z-index: -1;
+	svg {
+    transform-origin: 50% 50%;
+		box-sizing: border-box;
+	}
+
+	#mountain-group {
+		@keyframes jam {
+			30% {transform: translatex(2%) translatey(2%)}
+			60% {transform: translatex(-2%) translatey(2%)}
+		}
+		@for $i from 1 through 4 {
+			#mountain-#{$i} {
+				animation: jam 2500ms 625ms * $i ease-in-out alternate infinite;
+			}
+		}
+	}
+}
+
+@media (max-width: 500px) and (min-width: 300px) {
+  #mountain-group {
+    display: none;
+  }
+}

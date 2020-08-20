@@ -5,7 +5,8 @@ import "./FlipCard.scss";
 import GreetingAnimate from "../../../containers/greeting/GreetingAnimate2";
 import { Fade } from "react-reveal";
 import Zoom from 'react-medium-image-zoom'
-import 'react-medium-image-zoom/dist/styles.css'
+import 'react-medium-image-zoom/dist/styles.css';
+import Woods from "../../../containers/skills/Woods";
 
 function FlipCard (props) {
   var sectionStyle = {
@@ -30,6 +31,7 @@ function FlipCard (props) {
                 <div className="g-card-image" style={sectionStyle} >
                   <Fade right duration={2000}>
                     {/* <GreetingAnimate /> */}
+                    {/* <Woods /> */}
                   </Fade>
 
                 </div>
