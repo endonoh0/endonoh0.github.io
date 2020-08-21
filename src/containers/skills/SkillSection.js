@@ -30,10 +30,10 @@ class SkillSection extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div>
+      <div className="skills-main-div">
         {skills.data.map((skill) => {
           return (
-            <div className="skills-main-div">
+            <div >
               {/* <Fade left duration={2000}> */}
                 <div className="skills-image-div">
                   <Card className="section_card">

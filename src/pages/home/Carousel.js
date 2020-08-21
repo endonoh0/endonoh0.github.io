@@ -23,29 +23,29 @@ class Carousel extends React.Component {
       items: [
         {
           id: 1,
-          title: "Experience",
-          subTitle: 'Building Web Applications',
+          title: "Experienced",
+          subTitle: 'Building Web Apps',
           imgSrc: data_science,
-          general_description: "I can help realize projects using React.js, JavaScript, HTML and CSS.",
+          general_description: "realize projects using React.js, JavaScript, HTML and CSS.",
           profileImgSrc: appointment_book,
-          call_to_action: "See my GitHub ~",
+          call_to_action: "See my GitHub",
           link: ""
         },
         {
           id: 0,
           title: 'Full Stack Developer',
-          subTitle: 'Currently learning Python',
+          subTitle: '',
           imgSrc: fullstack,
           profileImgSrc: profileImgSrc,
           general_title: 'About Me',
           general_greeting: 'Hello World!',
           general_description: 'Hello World! I am a web developer from Canada.',
-          call_to_action: "Let's get in touch!",
+          call_to_action: "Looking for a dev?",
           link: '/#/contact',
         },
         {
           id: 2,
-          title: 'Winged It',
+          title: '',
           subTitle: 'Most Recent Project',
           imgSrc: ui_ux_design,
           link: '/#/projects',
@@ -53,7 +53,7 @@ class Carousel extends React.Component {
           // link: 'https://github.com/endonoh0/winged-it',
           general_title: 'My Projects',
           general_description: 'A recipe app that searches for in-season ingredients from nearby farmer\'s market.',
-          call_to_action: "Check out my code ~"
+          call_to_action: "Check out my code"
         },
       ]
     }
