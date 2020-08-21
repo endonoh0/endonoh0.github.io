@@ -12,7 +12,7 @@ export default function Skills(props) {
         <Fade bottom duration={2000} distance="20px">
           <Moon />
           <h1 className="skills-header" style={{ color: theme.text }}>
-            What I Do?
+            {/* What I Do? */}
           </h1>
         </Fade>
       </div>

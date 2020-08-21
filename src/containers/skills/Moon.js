@@ -3,7 +3,7 @@ import "./moon.scss";
 
 function Moon(props) {
 
-  const scrollToRef = (ref) => window.scrollTo(0, 1700, 'smooth')
+  const scrollToRef = (ref) => window.scrollTo(0, 1800, 'smooth')
   const myRef = useRef(null)
   const executeScroll = () => scrollToRef(myRef)
 

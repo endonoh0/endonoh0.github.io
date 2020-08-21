@@ -18,17 +18,8 @@ class Home extends Component {
           <Header theme={this.props.theme} />
           <Greeting theme={this.props.theme} />
           <Skills theme={this.props.theme} />
-          <Carousel />
-
           <SkillSection theme={this.props.theme} />
-
-          <div className="flex">
-            <Woods />
-            <Woods />
-            <Woods />
-            <Woods />
-            <Woods />
-          </div>
+          <Carousel />
 
           <Footer theme={this.props.theme} />
           <TopButton theme={this.props.theme} />

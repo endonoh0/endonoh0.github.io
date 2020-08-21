@@ -14,12 +14,12 @@ class SkillSection extends Component {
     const theme = this.props.theme;
     return (
       <>
-      <div className="mt-30">
+      {/* <div className="mt-30">
         <GreetingAmimate3 />
         <GreetingAmimate />
         <GreetingAmimate2 />
         <GreetingAmimate3 />
-      </div>
+      </div> */}
       <div className="skills-main-div">
         {skills.data.map((skill) => {
           return (
