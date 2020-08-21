@@ -87,10 +87,6 @@
         {
           "name": "jQuery",
           "iconifyClass": "bx:bxl-jquery"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos:css-3"
         }
       ]
     },
@@ -151,10 +147,6 @@
         {
           "name": "WebSocket",
           "iconifyClass": "logos-websocket"
-        },
-        {
-          "name": "Storybook",
-          "iconifyClass": "logos:storybook-icon"
         }
       ]
     },
@@ -177,10 +169,6 @@
         {
           "name": "Firebase",
           "iconifyClass": "logos-firebase"
-        },
-        {
-          "name": "Bootstrap",
-          "iconifyClass": "logos:bootstrap"
         },
         {
           "name": "Sass",

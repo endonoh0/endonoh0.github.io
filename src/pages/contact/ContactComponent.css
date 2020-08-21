@@ -33,6 +33,7 @@
 }
 
 .contact-heading-img-div {
+  display: none;
   align-items: center;
   justify-content: center;
 }
@@ -79,7 +80,7 @@
   font-family: "Google Sans Medium";
   line-height: 1.1;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 100px;
 }
 
 .address-heading-text {
@@ -126,6 +127,18 @@
   margin-top: 0;
 }
 
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 500px) {
+  .contact-main {
+    width: 80%;
+  }
+}
+
 @media (max-width: 1380px) {
   .contact-heading-text {
     font-size: 50px;
@@ -134,14 +147,14 @@
 
   .blog-heading-text {
     font-size: 50px;
-    margin-top: 40px;
+    margin-top: 100px;
   }
 }
 
 @media (max-width: 768px) {
   .contact-heading-text {
     font-size: 30px;
-    margin-top: 0px;
+    margin-top: 5%;
   }
 
   .blog-heading-text {

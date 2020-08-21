@@ -12,7 +12,7 @@ const greeting = {
   nickname: "Software Developer",
   subTitle: "I am a Full Stack Developer and passionate learner who is always ready to help, teach, and share knowledge. Eager to ride cutting-edge technologies, with a driven purpose to  build long lasting applications and websites.",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
+    "https://drive.google.com/open?id=1CQQLk9-rmiNaHoA7ulaq7_ptyDJfmID3",
   portfolio_repository: "https://github.com/endonoh0/masterPortfolio",
 };
 
@@ -516,22 +516,22 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    // profile_image_path: "animated_ashutosh.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Feel free to contact me if you have any questions about my work!",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://ashutoshhathidara.wordpress.com",
-    avatar_image_path: "blogs_image.svg",
+      "I like to write about computer science topics that are easy to read and understand.",
+    link: "https://medium.com/@endonoho",
+    // avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
     subtitle:
       "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
-    avatar_image_path: "address_image.svg",
+    // avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
   },
   phoneSection: {
