@@ -6,6 +6,7 @@ import ToggleSwitch from "./ToggleSwitch";
 /* eslint-disable jsx-a11y/accessible-emoji */
 
 export default function Footer(props) {
+
   return (
     <div className="footer-div">
       <Fade>

@@ -2,7 +2,7 @@ import React from "react";
 import CardInfo from "../CardInfo";
 import "../Card.scss"
 import "./FlipCard.scss";
-import GreetingAnimate from "../../../containers/greeting/GreetingAnimate2";
+// import GreetingAnimate from "../../../containers/greeting/GreetingAnimate2";
 import { Fade } from "react-reveal";
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css';

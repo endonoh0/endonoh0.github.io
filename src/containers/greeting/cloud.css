@@ -1,6 +1,8 @@
 svg {
   z-index: -1;
-  height: 25%;
+  /* height: 25%; */
+  height: fit-content;
+  transform: scale(2.5);
 }
 /****************************************************************************
                                     keyframes
@@ -49,7 +51,7 @@ svg {
 }
 
 .cloud-front {
-  z-index: -1;
+  /* z-index: -1; */
   animation-duration: 30s;
   animation-name: cloud-move;
   animation-iteration-count: infinite;

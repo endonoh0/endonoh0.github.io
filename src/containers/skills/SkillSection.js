@@ -4,32 +4,22 @@ import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 
-
-import DataScienceImg from "./DataScienceImg";
-import FullStackImg from "./FullStackImg";
-import CloudInfraImg from "./CloudInfraImg";
-import DesignImg from "./DesignImg";
-
 import Card from "react-bootstrap/Card"
+import GreetingAmimate3 from "../greeting/GreetingAnimate3";
+import GreetingAmimate2 from "../greeting/GreetingAnimate2";
 import GreetingAmimate from "../greeting/GreetingAnimate";
-// import Woods from "../../containers/skills/Woods"
-
-// function GetSkillSvg(props) {
-//   if (props.fileName === "DataScienceImg")
-//     return <DataScienceImg theme={props.theme} />;
-  // else if (props.fileName === "FullStackImg")
-  //   return <FullStackImg theme={props.theme} />;
-  // else if (props.fileName === "CloudInfraImg")
-  //   return <CloudInfraImg theme={props.theme} />;
-  // else {
-  //   return <DesignImg theme={props.theme} />;
-  // }
-// }
 
 class SkillSection extends Component {
   render() {
     const theme = this.props.theme;
     return (
+      <>
+      <div className="mt-30">
+        <GreetingAmimate3 />
+        <GreetingAmimate />
+        <GreetingAmimate2 />
+        <GreetingAmimate3 />
+      </div>
       <div className="skills-main-div">
         {skills.data.map((skill) => {
           return (
@@ -111,6 +101,7 @@ class SkillSection extends Component {
           );
         })}
       </div>
+      </>
     );
   }
 }

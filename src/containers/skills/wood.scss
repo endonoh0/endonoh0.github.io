@@ -1,12 +1,13 @@
 #contain-all-wood {
-	display: inline-block;
-	overflow: hidden;
+  // display: inline-block;
+	// overflow: hidden;
 	width: 300px; // SIZE
-  margin: 0 auto;
+  // margin: 0 auto;
   z-index: -1;
 	svg {
     transform-origin: 50% 50%;
-		box-sizing: border-box;
+    box-sizing: border-box;
+    // filling: orangered;
 	}
 
 	#mountain-group {
@@ -16,11 +17,12 @@
 		}
 		@for $i from 1 through 4 {
 			#mountain-#{$i} {
-				// animation: jam 2500ms 625ms * $i ease-in-out alternate infinite;
+				animation: jam 2500ms 625ms * $i ease-in-out alternate infinite;
 			}
 		}
 	}
 }
+
 
 @media (max-width: 500px) and (min-width: 300px) {
   #mountain-group {
