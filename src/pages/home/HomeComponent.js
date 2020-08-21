@@ -21,7 +21,7 @@ class Home extends Component {
           <SkillSection theme={this.props.theme} />
           <Carousel />
 
-          <Footer theme={this.props.theme} />
+          {/* <Footer theme={this.props.theme} /> */}
           <TopButton theme={this.props.theme} />
         </div>
       </div>

@@ -40,7 +40,7 @@ const socialMediaLinks = [
   },
   {
     name: "Gmail",
-    link: "mailto:eric.dinh.ho@gmail.com",
+    link: "mailto:eric.dinh.ho@gmail.com?bcc=eric.dinh.ho@gmail.com&subject=re:%20I%20Am%20Seeking%20A%20Web%20Developer&body=Hi%20Eric!%0d%0dI%20noticed%20on%20your%20website%20that%20you%20were%20interested%20in%20contributing%20to%20a%20project.%0d%0d%20I%20have%20a%20project%20that%20fits%20your%20skills%20set%20and%20I%20think%20it%20may%20pique%20your%20interest.%0d%0dYou%20can%20email%20me%20at%20your%20earliest%20convenience.%0d%0dI%20look%20forward%20to%20hearing%20from%20you.%0d",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
