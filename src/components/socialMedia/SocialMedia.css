@@ -1,5 +1,6 @@
 .social-media-div {
   font-size: 2em;
+  margin-top: 5%;
 }
 
 .icon-button i {
@@ -9,7 +10,7 @@
   margin-bottom: 10px;
 }
 
-.icon-button i {
+/* .icon-button i {
     border-radius: 2.6rem;
     cursor: pointer;
     display: inline-block;
@@ -26,8 +27,8 @@
     user-select: none;
     width: 1.6rem;
     margin-bottom: 10px;
-}
-/* .icon-button i {
+} */
+.icon-button i {
   border-radius: 2.6rem;
   cursor: pointer;
   display: inline-block;
@@ -43,7 +44,7 @@
   user-select: none;
   width: 2.6rem;
   margin-bottom: 10px;
-} */
+}
 
 /* .facebook i {
   background-color: #3b5998;

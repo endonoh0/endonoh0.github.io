@@ -263,8 +263,9 @@ const GreetingAmimate = () => {
         <path fill="#FBFDFC" d="M676.652,482.615 L698.689,482.615" />
         <path fill="#1A232C" d="M676.652,483.615 L698.689,483.615 C699.242,483.615 699.689,483.167 699.689,482.615 C699.689,482.062 699.242,481.615 698.689,481.615 L676.652,481.615 C676.1,481.615 675.652,482.062 675.652,482.615 C675.652,483.167 676.1,483.615 676.652,483.615"
         />
+        <a href="mailto:eric.dinh.ho@gmail.com?bcc=eric.dinh.ho@gmail.com&subject=re:%20I%20Am%20Seeking%20A%20Web%20Developer&body=Hi%20Eric!%0d%0dI%20noticed%20on%20your%20website%20that%20you%20were%20interested%20in%20contributing%20to%20a%20project.%0d%0d%20I%20have%20a%20project%20that%20fits%20your%20skills%20set%20and%20I%20think%20it%20may%20pique%20your%20interest.%0d%0dYou%20can%20email%20me%20at%20your%20earliest%20convenience.%0d%0dI%20look%20forward%20to%20hearing%20from%20you.%0d" rel="EMAIL">
 
-        <a href="mailto:eric.dinh.ho@gmail.com" target="_blank" rel="noopener noreferrer">
+        {/* <a href="mailto:eric.dinh.ho@gmail.com" target="_blank" rel="noopener noreferrer"> */}
         <path fill="#EDC655" class="sun1" d="M380.124,43.03 C380.124,30.313 390.433,20.004 403.149,20.004 C415.866,20.004 426.175,30.313 426.175,43.03 C426.175,55.746 415.866,66.056 403.149,66.056 C390.433,66.056 380.124,55.746 380.124,43.03"
         />
         </a>

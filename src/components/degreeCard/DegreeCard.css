@@ -116,6 +116,12 @@
   /* color: #000000; */
 }
 
+@media (max-width: 500px) {
+  .left-side {
+    padding-bottom: 0;
+  }
+}
+
 @media (max-width: 1380px) {
 }
 

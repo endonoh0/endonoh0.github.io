@@ -46,6 +46,7 @@ const socialMediaLinks = [
   },
   {
     name: "Phone",
+    link: "tel:+1-778-709-2990",
     fontAwesomeIcon: "fas fa-mobile-alt", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#ffd571", // Reference https://simpleicons.org/?q=twitter
   },
