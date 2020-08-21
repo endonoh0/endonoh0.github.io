@@ -280,7 +280,18 @@ body {
   .col {
     width: 400px;
   }
+  .wrapper {
+    margin-top: 130%;
+  }
 }
+
+@media (max-width: 749px) {
+    .wrapper {
+    margin-top: 130%;
+  }
+}
+
+
 
 // 512px
 @media screen and (max-width: 32rem){
@@ -295,9 +306,6 @@ body {
   }
   .front, .back {
     min-height: 320px !important;
-  }
-  .inner .g-card-image {
-    margin: 69px -100px -100px -82px !important;
   }
   .front:after {
     height: 100%;
@@ -335,4 +343,7 @@ body {
     padding: 2rem 0;
     min-width: 213px;
   }
+}
+@media (min-width: 769px) {
+
 }

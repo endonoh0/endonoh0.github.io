@@ -14,7 +14,7 @@ function FlipCard (props) {
     height: '400px',
     backgroundImage: `url(${props.items.imgSrc})`,
     margin: '-100px',
-    'margin-top': '69px',
+    'margin-top': '-17px',
     'background-size': 'cover',
     'background-position': 'center'
   };

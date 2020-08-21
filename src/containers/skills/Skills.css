@@ -88,6 +88,9 @@
 
 
 @media (max-width: 768px) {
+  .skills-main-div {
+    margin-top: 80%;
+  }
   .skills-heading {
     font-size: 30px;
     text-align: center;
@@ -126,4 +129,17 @@
   .skills-image-div > * {
     margin-top: 0px;
   }
+}
+
+@media (max-width: 500px) and (min-width: 375px) {
+
+  .mb-15 {
+    transform: unset;
+    margin-top: -110%;
+  }
+  .g-card-image {
+    margin: -19px -100px -100px !important;
+  }
+
+
 }

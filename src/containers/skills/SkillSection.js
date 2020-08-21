@@ -27,9 +27,7 @@ class SkillSection extends Component {
               <Fade left duration={2000}>
                 <div className="skills-image-div">
                   <Card className="section_card">
-                    <Card.Title>
-                      {skill.cardTitle}
-                    </Card.Title>
+
 
                     <Card.Body className="right-side">
                       <Fade right duration={1500}>

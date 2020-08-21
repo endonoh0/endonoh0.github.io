@@ -67,6 +67,11 @@
   transform: scale(9.5);
 }
 
+@media (max-width: 766px) {
+  .brand svg {
+    transform: scale(6.5);
+  }
+}
 
 /* Media Query */
 @media (max-width: 1380px) {
@@ -114,6 +119,7 @@
 }
 
 @media (min-width: 500px) {
+
   .greeting-main {
     margin-top: -38%;
   }
