@@ -1,7 +1,11 @@
 .skills-main-div {
+    /* align-items: flex-end; */
+
   /* margin-bottom: -21%; */
+  /* margin-top: 150%; */
   display: flex;
   justify-content: center;
+  /* flex-direction: column; */
 }
 
 .skills-header {
@@ -58,7 +62,7 @@
 
 .skills-list {
   padding: 0.5rem;
-  line-height: 2;
+  line-height: 2.2;
   margin: 0;
   /* list-style-type: none; */
   text-align: justify;

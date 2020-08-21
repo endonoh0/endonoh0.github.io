@@ -71,17 +71,13 @@ const skills = {
     // },
     {
       title: "Technologies",
-      cardTitle: "Skills Overview",
+      cardTitle: "",
       fileName: "FullStackImg",
       subtitle: "Languages",
       skills: [
-        "Building resposive website front end using React-Redux",
-        "Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "Creating application backend in Node, Express & Flask",
-        "Building resposive website front end using React-Redux",
-        "Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "Creating application backend in Node, Express & Flask",
-        "Creating application backend in Node, Express & Flask",
+        "Developing website layout, user interface layout to optimize user experience",
+        "Improving code quality processes using automated testing such as Jest, Mocha, PHPunit",
+        "Applying secure web application practices such as authentication, authorization, encryption"
       ],
       softwareSkills: [
         {
@@ -117,13 +113,12 @@ const skills = {
     },
     {
       fileName: "CloudInfraImg",
-      cardTitle: "Cloud Infra-Architecture",
+      cardTitle: "",
       subtitle: "Databases",
       skills: [
-        "Experience working on multiple cloud platforms",
-        "Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "Deploying deep learning models on cloud to use on mobile devices",
-        "Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "Designing databases with MySQL, and Eloquent ORM",
+        "Implementing Restful web services calls for POST, PUT, DELETE and GET methods",
+        "Hosting applications on Heroku, Netify, Firebase along with integration of databases",
       ],
       softwareSkills: [
         {
@@ -158,13 +153,13 @@ const skills = {
     },
     {
       // title: "UI/UX Design",
-      cardTitle: "UI/UX Design",
+      cardTitle: "",
       subtitle: "Frameworks",
       fileName: "DesignImg",
       skills: [
-        "Designing highly attractive user interface for mobile and web applications",
-        "Customizing logo designs and building logos from scratch",
-        "Creating the flow of application functionalities to optimize user experience",
+        "Creating custom reusable components using the React, Vue library",
+        "Creating application back end in Node, Express, Rails, Laravel",
+        "Designing front end views using EJS, ERB, Blade templating engine",
       ],
       softwareSkills: [
         {

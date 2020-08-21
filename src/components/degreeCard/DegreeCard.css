@@ -79,8 +79,9 @@
   border-right: 1px solid #d9dbdf;
   border-radius: 7px;
   height: auto;
-  padding: 0.5rem 1.5rem;
+  padding: 4.5rem 1.5rem;
   box-shadow: 5px 5px 5px #d9dbdf;
+  max-height: 291px;
 }
 
 .right-side {

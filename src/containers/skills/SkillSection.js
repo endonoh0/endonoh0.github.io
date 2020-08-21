@@ -34,12 +34,25 @@ class SkillSection extends Component {
         {skills.data.map((skill) => {
           return (
             <div >
-              {/* <Fade left duration={2000}> */}
+              <Fade left duration={2000}>
                 <div className="skills-image-div">
                   <Card className="section_card">
                     <Card.Title>
                       {skill.cardTitle}
                     </Card.Title>
+
+                    <Card.Body className="right-side">
+                      <Fade right duration={1500}>
+                        <Card.Subtitle>
+                          {skill.subtitle}
+                        </Card.Subtitle>
+
+
+                        {/* Logo and tooltip */}
+                        <SoftwareSkill logos={skill.softwareSkills} />
+
+                      </Fade>
+                    </Card.Body>
 
                     <Card.Body className="left-side">
                       <div>
@@ -59,7 +72,7 @@ class SkillSection extends Component {
                     </Card.Body>
                   </Card>
                 </div>
-              {/* </Fade> */}
+              </Fade>
 
 
               <div className="skills-text-div">
@@ -72,18 +85,7 @@ class SkillSection extends Component {
                       </h1>
                     </Card.Title>
 
-                    <Card.Body className="right-side">
-                      <Fade right duration={1500}>
-                        <Card.Subtitle>
-                          {skill.subtitle}
-                        </Card.Subtitle>
 
-
-                        {/* Logo and tooltip */}
-                        <SoftwareSkill logos={skill.softwareSkills} />
-
-                      </Fade>
-                    </Card.Body>
 
                   </Card>
 
