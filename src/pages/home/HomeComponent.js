@@ -7,15 +7,12 @@ import TopButton from "../../components/topButton/TopButton";
 
 class Home extends Component {
   render() {
-    console.log(this.props.theme);
     return (
       <div>
         {/* Navbar */}
         <Header theme={this.props.theme} />
-
         <Greeting theme={this.props.theme} />
         <Skills theme={this.props.theme} />
-        {/* <Footer theme={this.props.theme} /> */}
         <TopButton theme={this.props.theme} />
       </div>
     );

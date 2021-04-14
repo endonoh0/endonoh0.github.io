@@ -12,6 +12,7 @@
   margin-right: 20px;
   margin-bottom: 20px;
   font-family: "Google Sans Regular";
+  font-size: 2.1rem;
 }
 
 .software-skill-inline > i {
@@ -20,4 +21,8 @@
 
 .software-skill-inline > i:hover {
   color: #645beb;
+}
+
+.software-technology-title {
+  font-size: 1rem;
 }

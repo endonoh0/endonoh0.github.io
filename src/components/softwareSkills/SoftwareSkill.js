@@ -5,16 +5,10 @@ import { OverlayTrigger, Tooltip } from "react-bootstrap";
 class SoftwareSkill extends React.Component {
   render() {
     return (
-      <div>
+      <div style={{ margin: "1.25rem" }}>
         <div className="software-skills-main-div">
+          <h3 className="software-technology-title">{this.props.title}</h3>
           <ul className="dev-icons">
-            {/* {skillsSection.softwareSkills.map(skills => {
-            return (
-              <li className="software-skill-inline" name={skills.skillName}>
-                <i className={skills.fontAwesomeClassname}></i>
-              </li>
-            );
-          })} */}
             {this.props.logos.map((logo) => {
               return (
                 <OverlayTrigger

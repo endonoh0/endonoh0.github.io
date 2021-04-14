@@ -1,5 +1,50 @@
+.bordered-grid-item {
+  border: 1px black dashed;
+  margin: 1.25rem;
+  /* width: 100%; * /
+  /* text-align: center; */
+}
+
+.education {
+  border: 1px solid blue;
+}
+
+.education-container {
+  /* margin: 1.25rem; */
+}
+
+.education-title {
+  font-size: 14px;
+}
+
+.education-main-div {
+  padding: 1rem;
+  font-size: 14px;
+}
+
+.education-school {
+  font-size: 18px !important;
+}
+
+.grid-parent {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr;
+  /* align-items: center;
+  justify-items: center; */
+  width: 65%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.mb {
+  margin-bottom: 0;
+}
+
 .skills-main-div {
   display: flex;
+  flex-direction: column;
 }
 
 .skills-header {
@@ -10,17 +55,28 @@
 }
 
 .skills-text {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .skills-text-div {
   margin-left: 50px;
+  margin-right: 50px;
   font-family: "Google Sans Regular";
+}
+
+.skills-sentence-div {
+  display: "flex";
+  flex-direction: "column";
+  padding: 10px;
+  align-items: flex-start;
 }
 
 .skills-main-div > * {
   flex: 1;
   margin-bottom: 30px;
+  border: 1px solid salmon;
+  /* box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04)!important; */
+  /* background-color: #FFFFFF; */
 }
 
 .skills-image-div > * {
@@ -30,28 +86,40 @@
 }
 
 .skills-heading {
-  font-size: 56px;
+  font-size: 14px;
   font-weight: 400;
+  text-transform: uppercase;
   font-family: "Google Sans Regular";
   line-height: normal;
+  margin: 5px 5px 0 5px;
+  padding: 10px 10px 0 10px;
+}
+
+.skills-container {
+  border: 1px solid blue;
+  margin: 1.25rem;
+}
+
+.skills-list {
+  border: 1px solid red;
 }
 
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {
-    font-size: 40px;
+    font-size: 14px;
   }
   .skills-header {
     font-size: 50px;
   }
-  /* .skills-image-div > img {
-    margin-top: 0px;
-  } */
 }
 @media (max-width: 768px) {
+  .grid-parent {
+    display: unset;
+  }
   .skills-heading {
-    font-size: 30px;
-    text-align: center;
+    font-size: 14px;
+    /* text-align: center; */
   }
   .skills-header {
     font-size: 30px;
