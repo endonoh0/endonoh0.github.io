@@ -1,45 +1,69 @@
 .bordered-grid-item {
-  border: 1px black dashed;
-  margin: 1.25rem;
-  /* width: 100%; * /
+  /* border: 1px black dashed; */
   /* text-align: center; */
 }
 
 .education {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .education-container {
-  /* margin: 1.25rem; */
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+  background-color: #ffffff;
 }
 
 .education-title {
   font-size: 14px;
 }
 
+.education-degree {
+  width: 190px;
+  word-wrap: break-word;
+}
+
 .education-main-div {
   padding: 1rem;
+  /* padding-top: 0; */
   font-size: 14px;
 }
 
 .education-school {
   font-size: 18px !important;
+  width: 250px;
+  word-wrap: break-word;
 }
 
 .grid-parent {
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr;
-  /* align-items: center;
-  justify-items: center; */
-  width: 65%;
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
 }
 
-.mb {
+.iconify-parent {
+  display: flex;
+}
+
+.iconify-container {
+  display: flex;
+  margin-right: 10px;
+}
+
+.iconify {
+  margin-right: 5px;
+}
+
+.iconify-location {
+  font-size: 14px;
+  margin-top: 0;
   margin-bottom: 0;
+}
+
+.mb {
+  margin-bottom: 5px;
 }
 
 .skills-main-div {
@@ -74,9 +98,10 @@
 .skills-main-div > * {
   flex: 1;
   margin-bottom: 30px;
-  border: 1px solid salmon;
-  /* box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04)!important; */
-  /* background-color: #FFFFFF; */
+  /* border: 1px solid salmon; */
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+  background-color: #ffffff;
 }
 
 .skills-image-div > * {
@@ -93,19 +118,49 @@
   line-height: normal;
   margin: 5px 5px 0 5px;
   padding: 10px 10px 0 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.skills-company-title {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Google Sans Regular";
+  margin-top: 0;
+}
+
+.skills-company-title > a {
+  text-decoration: none;
+}
+
+.skills-company-position {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Google Sans Regular";
+  margin-bottom: 0;
 }
 
 .skills-container {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin: 1.25rem;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; */
 }
 
 .skills-list {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+  background-color: #ffffff;
 }
 
 /* Media Query */
 @media (max-width: 1380px) {
+  .education-school {
+    width: unset;
+    word-break: unset;
+  }
   .skills-heading {
     font-size: 14px;
   }
@@ -113,13 +168,39 @@
     font-size: 50px;
   }
 }
-@media (max-width: 768px) {
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* Portrait */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* Landscape */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* ----------- iPad ----------- */
+@media only screen and (device-width: 768px) {
+  .iconify-parent {
+    flex-direction: column;
+  }
+  .skills-text-div {
+    margin: unset;
+  }
+}
+
+@media (max-width: 767px) {
+  .iconify-parent {
+    flex-direction: column;
+  }
   .grid-parent {
     display: unset;
   }
   .skills-heading {
     font-size: 14px;
-    /* text-align: center; */
+    text-align: center;
   }
   .skills-header {
     font-size: 30px;
@@ -132,8 +213,8 @@
     flex-direction: column;
   }
   .skills-text-div {
-    margin-left: 0px;
-    margin: 20px;
+    /* margin-left: 0px;
+    margin: 20px; */
   }
   .skills-text {
     font-size: 16px;

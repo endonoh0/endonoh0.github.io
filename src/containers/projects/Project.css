@@ -15,6 +15,10 @@
   gap: 1rem 1rem;
 }
 
+.repo-cards-div {
+  width: 100%;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .project-title {

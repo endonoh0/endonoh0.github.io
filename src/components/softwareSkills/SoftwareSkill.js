@@ -5,7 +5,7 @@ import { OverlayTrigger, Tooltip } from "react-bootstrap";
 class SoftwareSkill extends React.Component {
   render() {
     return (
-      <div style={{ margin: "1.25rem" }}>
+      <div style={{ margin: "1.25rem", paddingTop: "5%" }}>
         <div className="software-skills-main-div">
           <h3 className="software-technology-title">{this.props.title}</h3>
           <ul className="dev-icons">
