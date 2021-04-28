@@ -9,6 +9,7 @@
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .gretting-main {
@@ -32,16 +33,15 @@
 
 .greeting-text {
   color: rgb(20, 33, 61);
-  margin-right: 20%;
-  font-size: ;
+  z-index: 1;
   position: absolute;
-  margin-top: 1.9%;
-  line-height: 1.1;
+  margin-top: 1%;
+  line-height: 2.5;
   font-family: "Google Sans Bold";
 }
 
 .greeting-nickname {
-  margin-bottom: -10px;
+  /* margin-bottom: -10px; */
   font-size: 30px;
   line-height: 0px;
   font-family: "Google Sans Bold Italic";
@@ -63,9 +63,13 @@
 @media (max-width: 1380px) {
   .greeting-text {
     font-size: 50px;
+    line-height: 1.5;
   }
   .greeting-text-p {
     font-size: 20px;
+  }
+  .brand {
+    margin-bottom: 1rem;
   }
 }
 @media (max-width: 768px) {
@@ -73,8 +77,7 @@
     justify-content: space-around;
   }
   .greeting-text {
-    /* font-size: 30px;
-    margin-top: 0px; */
+    line-height: 1.5;
     text-align: center;
   }
   .greeting-nickname {
@@ -99,16 +102,16 @@
 }
 
 .brand {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
 }
 
-
 svg {
-  z-index: 9999;
+  z-index: 1;
 }
 
 .sun {
-  z-index: 9999;
+  z-index: 1;
   position: absolute;
 }

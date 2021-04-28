@@ -9,8 +9,20 @@
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "PHP",
+          "iconifyClass": "logos:php"
+        },
+        {
+          "name": "Tailwind",
+          "iconifyClass": "logos:tailwindcss-icon"
+        },
+        {
+          "name": "Laravel",
+          "iconifyClass": "logos:laravel"
+        },
+        {
+          "name": "Sass",
+          "iconifyClass": "logos:sass"
         }
       ]
     },
@@ -23,8 +35,20 @@
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "PHP",
+          "iconifyClass": "logos:php"
+        },
+        {
+          "name": "Vue",
+          "iconifyClass": "logos:vue"
+        },
+        {
+          "name": "Laravel",
+          "iconifyClass": "logos:laravel"
+        },
+        {
+          "name": "Sass",
+          "iconifyClass": "logos:sass"
         }
       ]
     },
@@ -37,16 +61,20 @@
       "isFork": true,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Node",
+          "iconifyClass": "logos:nodejs-icon"
+        },
+        {
+          "name": "Express",
+          "iconifyClass": "logos:express"
+        },
+        {
+          "name": "Jquery",
+          "iconifyClass": "logos:jquery"
         }
       ]
     },
@@ -59,16 +87,16 @@
       "isFork": false,
       "languages": [
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Ruby",
+          "iconifyClass": "logos:ruby"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Rails",
+          "iconifyClass": "logos:rails"
         },
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "Stripe",
+          "iconifyClass": "logos:stripe"
         }
       ]
     },
@@ -85,12 +113,12 @@
           "iconifyClass": "logos-javascript"
         },
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "React",
+          "iconifyClass": "logos:react"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Express",
+          "iconifyClass": "logos:express"
         }
       ]
     },
@@ -103,8 +131,24 @@
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "PHP",
+          "iconifyClass": "logos:php"
+        },
+        {
+          "name": "Tailwind",
+          "iconifyClass": "logos:tailwindcss-icon"
+        },
+        {
+          "name": "Laravel",
+          "iconifyClass": "logos:laravel"
+        },
+        {
+          "name": "Sass",
+          "iconifyClass": "logos:sass"
+        },
+        {
+          "name": "Jquery",
+          "iconifyClass": "logos:jquery"
         }
       ]
     }

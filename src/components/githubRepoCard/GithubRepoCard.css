@@ -54,7 +54,7 @@
   color: rgb(36, 41, 46);
   font-family: "Google Sans Regular";
   margin-bottom: 0.75rem;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: -0.5px;
   overflow: hidden;
@@ -66,6 +66,7 @@
 }
 
 .repo-description {
+  font-size: 16px;
   overflow: hidden;
   text-align: left;
   display: -webkit-box;
@@ -76,7 +77,8 @@
 
 .repo-details {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
 }
 
 .repo-creation-date {
@@ -85,6 +87,8 @@
   font-weight: 400;
   margin-left: 0px;
   margin-right: auto;
+  margin-bottom: 1rem;
+  font-size: 14px;
 }
 
 .repo-languages {

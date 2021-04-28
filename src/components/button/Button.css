@@ -24,10 +24,9 @@
   transition: ease-in 0.3s;
 }
 .project-button {
+  margin-right: 5px;
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 /* Media Query */
 @media (max-width: 768px) {

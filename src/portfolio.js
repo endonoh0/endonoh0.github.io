@@ -13,7 +13,7 @@ const greeting = {
   subTitle:
     "I am a Full Stack Developer and passionate learner who is always ready to help, teach, and share knowledge. Eager to ride cutting-edge technologies, with a driven purpose to  build long lasting applications and websites.",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
+    "https://drive.google.com/file/d/1FbhDe_qbalOSlKRxByERWSMuDQAtkI7I/view?usp=sharing",
   portfolio_repository: "https://github.com/endonoh0/masterPortfolio",
 };
 
@@ -110,6 +110,10 @@ const skillsList = {
             color: "#787CB5",
           },
         },
+        {
+          skillName: "Ruby",
+          fontAwesomeClassname: "logos:ruby",
+        },
       ],
     },
     {
@@ -129,6 +133,10 @@ const skillsList = {
         {
           skillName: "Vue",
           fontAwesomeClassname: "logos:vue",
+        },
+        {
+          skillName: "Rails",
+          fontAwesomeClassname: "logos:rails",
         },
       ],
     },

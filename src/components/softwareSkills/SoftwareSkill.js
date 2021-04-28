@@ -9,10 +9,10 @@ class SoftwareSkill extends React.Component {
         <div className="software-skills-main-div">
           <h3 className="software-technology-title">{this.props.title}</h3>
           <ul className="dev-icons">
-            {this.props.logos.map((logo) => {
+            {this.props.logos.map((logo, i) => {
               return (
                 <OverlayTrigger
-                  key={logo.skillName}
+                  key={i}
                   placement={"top"}
                   overlay={
                     <Tooltip id={`tooltip-top`}>

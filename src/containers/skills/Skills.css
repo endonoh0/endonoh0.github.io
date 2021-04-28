@@ -1,3 +1,10 @@
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .bordered-grid-item {
   /* border: 1px black dashed; */
   /* text-align: center; */
@@ -20,6 +27,7 @@
 .education-degree {
   width: 190px;
   word-wrap: break-word;
+  font-family: "Google Sans Regular";
 }
 
 .education-main-div {
@@ -32,6 +40,7 @@
   font-size: 18px !important;
   width: 250px;
   word-wrap: break-word;
+  font-family: "Google Sans Bold";
 }
 
 .grid-parent {
@@ -60,6 +69,7 @@
   font-size: 14px;
   margin-top: 0;
   margin-bottom: 0;
+  font-family: "Google Sans Regular";
 }
 
 .mb {
@@ -127,6 +137,7 @@
   font-weight: 600;
   font-family: "Google Sans Regular";
   margin-top: 0;
+  line-height: 2;
 }
 
 .skills-company-title > a {

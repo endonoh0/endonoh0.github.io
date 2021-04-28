@@ -1,5 +1,5 @@
 .social-media-div {
-  font-size: 2em;
+  /* font-size: 2em; */
 }
 
 .icon-button i {
@@ -10,21 +10,21 @@
 }
 
 .icon-button i {
-    border-radius: 2.6rem;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 1.0rem;
-    height: 1.6rem;
-    line-height: 1.6rem;
-    margin: 0 5px;
-    position: relative;
-    text-align: center;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    width: 1.6rem;
-    margin-bottom: 10px;
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1.6rem;
+  margin-bottom: 10px;
 }
 /* .icon-button i {
   border-radius: 2.6rem;

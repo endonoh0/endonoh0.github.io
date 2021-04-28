@@ -15,63 +15,31 @@ export default function Greeting(props) {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div className="center">
-
               {/* SVG animation */}
-            <div className="brand">
-                <GreetingAnimate className="sun"/>
-                <h1 className="greeting-text" style={{ color: theme.text  }}>
+              <div className="brand">
+                <GreetingAnimate className="sun" />
+                <h1 className="greeting-text" style={{ color: theme.text }}>
                   {/* Full Name */}
-                  <div className="greeting-flex">
-                    {greeting.title}
-                  </div>
+                  <div className="greeting-flex">{greeting.title}</div>
+                  {
+                    <div
+                      className="greeting-nickname"
+                      style={{ color: theme.text }}
+                    >
+                      {greeting.nickname}
+                    </div>
+                  }
+                  <SocialMedia theme={theme} />
                 </h1>
               </div>
 
-              { <h2 className="greeting-nickname" style={{ color: theme.text }}>
-                {/* Job Title */}
+              {/* { <h2 className="greeting-nickname" style={{ color: theme.text }}>
                 {greeting.nickname}
-              </h2>}
+              </h2>} */}
 
-              <p
-                className="greeting-text-p subTitle"
-                style={{ color: theme.secondaryText }}
-              >
-                {/* Removed About me */}
-
-                {/* {greeting.subTitle} */}
-              </p>
-
-              <SocialMedia theme={theme} />
-
-              <div className="portfolio-repo-btn-div">
-                {/* Removed Checkout my code */}
-
-                {/* <Button
-                  text="Find Me On Github"
-                  newTab={true}
-                  href={greeting.portfolio_repository}
-                  theme={theme}
-                  className="portfolio-repo-btn"
-                /> */}
-              </div>
-              {/*<div className="button-greeting-div">
-              <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
-            </div> */}
+              {/* <SocialMedia theme={theme} /> */}
             </div>
           </div>
-
-          {/* Removed Image */}
-
-          {/* <div className="greeting-image-div"> */}
-            {/* <img
-							alt="saad sitting on table"
-							src={require("../../assests/images/feelingProud.svg")}
-						></img> */}
-            {/* <FeelingProud theme={theme} /> */}
-          {/* </div> */}
-
-
         </div>
       </div>
     </Fade>
