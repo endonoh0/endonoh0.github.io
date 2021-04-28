@@ -239,42 +239,6 @@ const skills = {
   ],
 };
 
-// Projects Page
-const projectsHeader = {
-  title: "Projects",
-  description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
-  avatar_image_path: "projects_image.svg",
-};
-
-// Contact Page
-const contactPageData = {
-  contactSection: {
-    title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
-    description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
-  },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://ashutoshhathidara.wordpress.com",
-    avatar_image_path: "blogs_image.svg",
-  },
-  addressSection: {
-    title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
-    avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
-  },
-  phoneSection: {
-    title: "Phone Number",
-    subtitle: "+91 8320758513",
-  },
-};
-
 export {
   settings,
   greeting,
@@ -283,6 +247,4 @@ export {
   education,
   skills,
   skillsList,
-  projectsHeader,
-  contactPageData,
 };
