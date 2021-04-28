@@ -32,12 +32,14 @@ const socialMediaLinks = [
   },
   {
     name: "Gmail",
-    link: "mailto:eric.dinh.ho@gmail.com",
+    link:
+      "mailto:eric.dinh.ho@gmail.com?subject=re: I Have An Idea I'd like to Discuss&body=Hello Eric! %0D%0A %0D%0A I recently stumbled upon your website, and I noticed you said you were looking for an interesting project to contribute to. %0D%0A %0D%0A I have an idea that I'd like to run across you. I think it may pique your interest. %0D%0A %0D%0A Feel free to email me at your earliest convenience. Perhaps we can discuss in online if an in person meeting won't work. %0D%0A %0D%0A I look forward to speaking with you. ",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Phone",
+    link: "tel:1+7787092990",
     fontAwesomeIcon: "fas fa-mobile-alt", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#ffd571", // Reference https://simpleicons.org/?q=twitter
   },

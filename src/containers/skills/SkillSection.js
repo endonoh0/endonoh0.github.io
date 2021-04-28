@@ -64,7 +64,7 @@ class SkillSection extends Component {
                           fontFamily: "Google Sans Regular",
                         }}
                       >
-                        Floka
+                        Flöka
                       </a>
                     </h2>
                     {car.experience.map((expSentence, i) => {

@@ -19,7 +19,7 @@ export default function Contact() {
             <br />
             <a
               className="contact-detail-email"
-              href={"mailto:" + contactInfo.email_address}
+              href={`mailto:${contactInfo.email_address}?subject=re: I Have An Idea I'd like to Discuss`}
             >
               {contactInfo.email_address}
             </a>
@@ -38,3 +38,6 @@ export default function Contact() {
     </div>
   );
 }
+
+// re: I Have An Idea I'd like to Discuss
+// Hello Jamal!

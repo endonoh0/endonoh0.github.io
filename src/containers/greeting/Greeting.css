@@ -40,9 +40,14 @@
   font-family: "Google Sans Bold";
 }
 
+.greeting-flex {
+  font-size: 48px;
+  font-family: "Google Sans Bold";
+}
+
 .greeting-nickname {
   /* margin-bottom: -10px; */
-  font-size: 30px;
+  font-size: 24px;
   line-height: 0px;
   font-family: "Google Sans Bold Italic";
 }
