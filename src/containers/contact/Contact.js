@@ -38,6 +38,3 @@ export default function Contact() {
     </div>
   );
 }
-
-// re: I Have An Idea I'd like to Discuss
-// Hello Jamal!
